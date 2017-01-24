@@ -18,8 +18,8 @@ collections:
             rewrite_rel_canon: false
             client:
                 no_rewrite_prefixes:
-                    - 'https://hypothes.is/'
-                    - 'https://stage.hypothes.is/'
+                    - 'http://docs.lab.tenablesecurity.com:5000/'
+                    - 'http://docs.lab.tenablesecurity.com:5000/'
                     - '/assets/'
 
                 #skip_createElement: true

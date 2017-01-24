@@ -54,7 +54,7 @@ def redirect_strip_matched_path(environ, start_response):
 
 
 def app(environ, start_response):
-    embed_url = os.environ.get('H_EMBED_URL', 'https://hypothes.is/embed.js')
+    embed_url = os.environ.get('H_EMBED_URL', 'http://docs.lab.tenablesecurity.com:5000/embed.js')
 
     template_params = environ.get('pywb.template_params', {})
     template_params['h_embed_url'] = embed_url
