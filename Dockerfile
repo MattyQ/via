@@ -27,7 +27,7 @@ RUN apk add --update --virtual build-deps \
 # Install app.
 COPY . .
 
-EXPOSE 9080
+EXPOSE 5222
 
 USER via
 CMD ./run-uwsgi.sh
